@@ -1,0 +1,41 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Program Files (x86)\Yarn\bin\yarn.js add gaphql-yoga
+
+PATH: 
+  C:\Program Files (x86)\Embarcadero\Studio\19.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\19.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\19.0\Bpl\Win64;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl;C:\Program Files (x86)\Embarcadero\Studio\18.0\bin64;C:\Users\Public\Documents\Embarcadero\Studio\18.0\Bpl\Win64;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\TortoiseSVN\bin;C:\RWS\System;C:\Program Files (x86)\OPOS\Epson2;C:\Program Files (x86)\GitExtensions\;\\PITDHCP1\NETLOGON;C:\Users\daneelv\AppData\Local\Microsoft\WindowsApps;S:\PB\PROD\COMMON_FILES;S:\ORA9I\BIN;S:\ORAWIN95_6I\ODBC\BIN;S:\ORAWIN95_6I\BIN;S:\ORAWIN95_6I;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\ManagementStudio\;c:\Program Files (x86)\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files\Microsoft SQL Server\110\Tools\Binn\;c:\Program Files (x86)\Microsoft SQL Server\110\DTS\Binn\;C:\Program Files (x86)\Oracle_Client\instantclient_12_2;C:\Program Files\Oracle\instantclient_12_2;C:\Users\daneelv\AppData\Local\Programs\Microsoft VS Code\bin;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;C:\postilion\eSocket.POS\bin;C:\Program Files (x86)\Java\jre7\bin;C:\Program Files\nodejs\;C:\Program Files\TortoiseGit\bin;C:\Program Files\Git\cmd;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files (x86)\Yarn\bin\;C:\Program Files (x86)\Oracle_Client\instantclient_12_2;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Users\daneelv\AppData\Local\Microsoft\WindowsApps;S:\PB\PROD\COMMON_FILES;S:\ORA9I\BIN;S:\ORAWIN95_6I\ODBC\BIN;S:\ORAWIN95_6I\BIN;S:\ORAWIN95_6I;C:\Program Files\Oracle\instantclient_12_2;;C:\Users\daneelv\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\daneelv\AppData\Roaming\npm;C:\Users\daneelv\AppData\Local\Programs\Fiddler;C:\Users\daneelv\AppData\Local\Yarn\bin
+
+Yarn version: 
+  1.22.4
+
+Node version: 
+  12.13.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/gaphql-yoga: Not found
+      at Request.params.callback [as _callback] (C:\Program Files (x86)\Yarn\lib\cli.js:66096:18)
+      at Request.self.callback (C:\Program Files (x86)\Yarn\lib\cli.js:140748:22)
+      at Request.emit (events.js:210:5)
+      at Request.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141720:10)
+      at Request.emit (events.js:210:5)
+      at IncomingMessage.<anonymous> (C:\Program Files (x86)\Yarn\lib\cli.js:141642:12)
+      at Object.onceWrapper (events.js:299:28)
+      at IncomingMessage.emit (events.js:215:7)
+      at endReadableNT (_stream_readable.js:1184:12)
+      at processTicksAndRejections (internal/process/task_queues.js:80:21)
+
+npm manifest: 
+  {
+    "name": "Server",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
